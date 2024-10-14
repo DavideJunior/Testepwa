@@ -440,7 +440,6 @@
       "sizes": "180x180"
     },
     {
-<<<<<<< HEAD
       "src": "ios/256.png",
       "sizes": "256x256"
     },
@@ -455,11 +454,3 @@
   ],
   "name": "Cidade Segura"
 }
-=======
-            "src": "ios/1024.png",
-            "sizes": "1024x1024"
-        }
-      
-        ]
-} 
->>>>>>> 801c4474e56dd2deadef46c0f0db6ae8c3eb7bbe

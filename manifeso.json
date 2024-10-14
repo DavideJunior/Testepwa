@@ -8,10 +8,6 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "ios/192.png",
-      "sizes": "192x192"
-    },
-    {
       "src": "windows11/SmallTile.scale-100.png",
       "sizes": "71x71"
     },
@@ -444,6 +440,7 @@
       "sizes": "180x180"
     },
     {
+<<<<<<< HEAD
       "src": "ios/256.png",
       "sizes": "256x256"
     },
@@ -458,3 +455,11 @@
   ],
   "name": "Cidade Segura"
 }
+=======
+            "src": "ios/1024.png",
+            "sizes": "1024x1024"
+        }
+      
+        ]
+} 
+>>>>>>> 801c4474e56dd2deadef46c0f0db6ae8c3eb7bbe

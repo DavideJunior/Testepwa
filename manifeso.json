@@ -1,17 +1,16 @@
 {
-    "nome":"Cidade Segura",
-    "short_name":"CS",
-    "description": "solução tecnológica integrada que promova a segurança pública em Balsas através do uso de dados",
-    "start_url": "/",
-    "theme_color": "#eeffee",
-    "background_color": "#eeffee",
-    "display": "standalone",
-    "icons": [
-      {
+  "nome": "Cidade Segura",
+  "short_name": "Cidade Segura",
+  "description": "solução tecnológica integrada que promova a segurança pública em Balsas através do uso de dados",
+  "start_url": "/",
+  "theme_color": "#eeffee",
+  "background_color": "#eeffee",
+  "display": "standalone",
+  "icons": [
+    {
       "src": "ios/192.png",
       "sizes": "192x192"
     },
-
     {
       "src": "windows11/SmallTile.scale-100.png",
       "sizes": "71x71"
@@ -444,18 +443,18 @@
       "src": "ios/180.png",
       "sizes": "180x180"
     },
-   {
-            "src": "ios/256.png",
-            "sizes": "256x256"
-   },
-  {
-            "src": "ios/512.png",
-            "sizes": "512x512"
-   },
     {
-            "src": "ios/1024.png",
-            "sizes": "1024x1024"
-        }
-      
-        ]
-} 
+      "src": "ios/256.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "ios/512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "ios/1024.png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "name": "Cidade Segura"
+}

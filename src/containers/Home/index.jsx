@@ -5,7 +5,7 @@ function Home() {
     
     return (
         <div>
-            <Title>Hello word Cidade Segura</Title>
+            <Title>Hello word Cidade Segura </Title>
         </div>
     )
 

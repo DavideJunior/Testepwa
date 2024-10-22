@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { Container, Sidebar, MainContent, MapContainer, IncidentList, IncidentItem,StyledLink} from './styled';
 import logoCs from '../../assets/logoCS.png' // importação da logo Cidade Segura 
@@ -43,3 +44,20 @@ const Home = () => {
 }
 
 export default Home;
+=======
+import { Title } from "./style"
+
+
+function Home() {
+    
+    return (
+        <div>
+            <Title>Hello word Cidade Segura </Title>
+        </div>
+    )
+
+
+}
+
+export default Home;
+>>>>>>> 5e4cacfb0849da152b62efb59019591e78b0ea4c

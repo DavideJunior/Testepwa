@@ -7,6 +7,7 @@
     <title>Cidade Segura</title>
     <link rel="icon" href="src/assets/icone pwa.png" />
   </head>
+<<<<<<< HEAD
   <body style="height: 100%; margin: 0;">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
@@ -18,4 +19,15 @@
   </body>
   
   
+=======
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js");
+      }
+    </script>
+  </body>
+>>>>>>> 5e4cacfb0849da152b62efb59019591e78b0ea4c
 </html>

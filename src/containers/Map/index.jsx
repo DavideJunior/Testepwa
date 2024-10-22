@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Sidebar, MainContent, MapContainer, IncidentList, IncidentItem,StyledLink} from './styled';
+import { Container, Sidebar, StyledLink} from './styled.js';
 import logoCs from '../../assets/logoCS.png' // importação da logo Cidade Segura 
 import {HomeIcon, SearchIcon, MapIcon} from '../../components/components.jsx'; // importação do icon home 
 
@@ -20,24 +20,6 @@ const Home = () => {
         <button className="logout">Sair</button>
       </Sidebar>
       
-      <MainContent>
-        <MapContainer>
-          {/* Mapa interativo poderia ir aqui, como um componente de mapa */}
-        </MapContainer>
-        
-        <IncidentList>
-          <h2>Últimos Incidentes</h2>
-          <p>Baseados nas últimas 48hrs</p>
-          <ul>
-            <IncidentItem>
-              <p>Denúncia de Tentativa de Roubo de Celular com Agressões Sofridas</p>
-              <span>Hoje às 16:30 - São Castro</span>
-            </IncidentItem>
-            {/* Mais itens da lista aqui */}
-          </ul>
-          <a href="#">Mostrar mais</a>
-        </IncidentList>
-      </MainContent>
     </Container>
   );
 }

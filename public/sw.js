@@ -1,5 +1,5 @@
 // Versão do cache - Atualize sempre que fizer mudanças importantes
-const VERSION = "v1.3";
+const VERSION = "v1.4";
 
 // Nome do cache, incluindo a versão para facilitar a invalidação
 const CACHE_NAME = `period-tracker-${VERSION}`;
